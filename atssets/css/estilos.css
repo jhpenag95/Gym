@@ -1,0 +1,639 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/********=======================header================================*******/
+header {
+    width: 100%;
+    height: 800px;
+    background-image: url("../img/bg-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .infoheader {
+    width: 94%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.infoheader .infoheader-logo {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.infoheader-logo span {
+    position: absolute;
+    font-size: 98px;
+    color: transparent;
+    -webkit-text-stroke: 3px white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.infoheader-logo .back:last-child {
+    filter: blur(6px)
+        /*filtro sport;; */
+    ;
+}
+
+.infoheader p {
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 78px;
+}
+
+.btn {
+    border: 0;
+    padding: 10px 48px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 22px;
+    font-weight: bold;
+    color: #3ea2d8;
+}
+
+
+
+/***************======================Section one"========================**************/
+
+main {
+    width: 100%;
+}
+
+.one {
+    width: 100%;
+    height: 660px;
+    background-color: black;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.one h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #3ea2d8;
+    text-align: center;
+}
+
+.one p {
+    font-size: 1rem;
+    text-align: justify;
+    color: #3ea2d8;
+    padding: 14px;
+}
+
+
+
+/***************======================Section two"========================**************/
+
+
+.two {
+    width: 100%;
+    height: 600px;
+    background-color: #141414;
+}
+
+.cartcontent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.cartcontent .col-4 {
+    width: 270px;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartcontent .col-4 .card-body {
+    padding: 10px;
+}
+
+.cartcontent .col-4 .card-body h5,
+p {
+    padding: 10px;
+}
+
+/***************======================Section tres"========================**************/
+
+.three {
+    width: 100%;
+    height: 1280px;
+    background-image: url("../img/bg-priorities.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.three .container h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #02c6ee;
+}
+
+.three .container p {
+    font-size: 1rem;
+    height: 226px;
+    text-align: justify;
+    color: #02c6ee;
+}
+
+.three .container .row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.row .col-4 {
+    width: 260px;
+}
+
+.row .col-4 .caja {
+    height: 280px;
+    background-color: #444444;
+}
+
+.row .col-4 .caja p {
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+}
+
+.caja .firma {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/***************======================Section cuatro"========================**************/
+
+
+.four {
+    width: 100%;
+    height: 800px;
+    background-color: #000;
+}
+
+
+.four h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #3ea2d8;
+    text-align: center;
+}
+
+.four p {
+    font-size: 1rem;
+    text-align: justify;
+    color: #3ea2d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.four .container .row {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+}
+
+.four .container .row .col-4 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.four .container .row .col-4 .caja-img {
+    width: 60px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/***************======================Section Quinta========================**************/
+
+
+.fifth {
+    width: 100%;
+    height: 400px;
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.fifth p{
+    font-size: 1rem;
+    text-align: center;
+    color: #3ea2d8;
+}
+
+/***************======================Section Sexta========================**************/
+
+.six {
+    width: 100%;
+    height: 800px;
+    background-color: #000; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.six .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: auto;
+}
+
+.six .container .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.six .container .row .col-6{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.col-6 .info-nature h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #3ea2d8;
+    text-align: center;
+}
+
+.col-6 .info-nature p{
+    font-size: 1rem;
+    text-align: justify;
+    color: #3ea2d8;
+    padding: 8px;
+}
+
+.col-6 .info-natureimg {
+    width: 274px;
+    height: 300px;
+}
+
+
+.col-6 .info-natureimg  img {
+    width: 100%;
+    height: 100%;
+}
+
+/***************======================Section Septima========================**************/
+
+.seven {
+    width: 100%;
+    height: 400px;
+    background-image: url("../img/bg-buy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner-info {
+    width: 280px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner-info h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #3ea2d8;
+    text-align: center;
+}
+
+.conteiner-info p{
+    font-size: 1rem;
+    text-align: justify;
+    color: #ffff;
+    padding: 8px;
+}
+
+
+@media screen and (min-width: 700px) {
+
+    /***header***/
+
+    .infoheader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .infoheader p {
+        width: 600px;
+        text-align: justify;
+    }
+
+    /***Seccion uno***/
+
+    .one p {
+        width: 600px;
+    }
+
+    /***seccion dos***/
+
+    .cartcontent {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .two {
+        height: 400px;
+    }
+
+
+    /***seccion tres***/
+
+    .three {
+        width: 100%;
+        height: 960px;
+    }
+
+    .three .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .three .container p {
+        height: 180px;
+    }
+
+
+    .three .container .row {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    /*****Sección cuatro*********/
+
+    .four {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .four .container .row {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .four h2 {
+        padding-bottom: 10px;
+    }
+
+    .four p {
+        padding-bottom: 10px;
+    }
+
+    /*******Sección Seis*********/
+
+    .six .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .six .container .row .col-6{
+        width: 500px;
+        height: 300px;
+
+    }
+
+    .col-6 .info-nature {
+        width: 320px;
+    }
+
+    .col-6 .info-natureimg {
+        width: 300px;
+        height: 300px;
+    }
+
+    /*******Sección Siete*********/
+
+    .conteiner-info {
+        width: 300px;
+        margin: auto;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+
+    /****Sección Uno*****/
+
+    .one p {
+        width: 680px;
+    }
+
+    .cartcontent {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    /**********Sección dos***************/
+
+    .two {
+        height: 400px;
+    }
+
+    .cartcontent .col-4 {
+        width: 300px;
+        height: 400px;
+    }
+
+
+    /**seccion tres**/
+
+    .three {
+        height: 660px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .three .container h1 {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .three .container p {
+        width: 680px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+
+    .three .container .row {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .row .col-4 {
+        width: 300px;
+    }
+
+    /**********Sección Cuatro***********/
+
+    .four {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    .four .container .row {
+        width: 600px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .four h2 {
+        padding-bottom: 10px;
+    }
+
+    .four p {
+        width: 600px;
+        margin: auto;
+    }
+
+    .four .container .row .col-4 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .four .container .row .col-4 .caja-img {
+        width: 100px;
+        height: 120px;
+        margin: auto;
+    }
+
+    .caja-img img {
+        width: 80%;
+        height: 100%;
+    }
+
+
+    /**********Sección Quinta***********/
+
+    .fifth {
+        width: 100%;
+        height: 400px;
+        background-color: #141414;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .fifth .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .fifth p{
+        width: 600px;
+        margin: auto;
+    }
+    
+
+    /*******Sección Seis********/
+
+    .six .container .row {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .six .container .row .col-6{
+        width: 500px;
+        height: 500px;
+
+    }
+
+
+    .col-6 .info-nature {
+        width: 100%;
+    }
+
+    .col-6 .info-nature p{
+        width: 80%;
+        margin: auto;
+    }
+
+    .col-6 .info-natureimg {
+        width: 100%;
+        height: 100%;
+    }
+    
+   /*******Sección Siete*********/
+
+   .conteiner-info {
+    width: 400px;
+    margin: auto;
+}
+
+}
